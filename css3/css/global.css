@@ -1,0 +1,238 @@
+/******************/
+/* General Layout */
+/******************/
+
+@font-face {
+    font-family: 'My Lucida';
+    src: url('../font/LucidaGrande.ttf');
+    font-style: normal; 
+    font-weight: bold;
+}
+
+* { 
+    font-family: 'My Lucida', Console;
+}
+
+body { 
+    background: linear-gradient(to bottom, #efefef, white) no-repeat;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper { 
+    width: 1280px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+header .logo-search, header .logo-search img, header .logo-search form, main header aside, main header .name, main header .statistics, main h2, body .wrapper > aside, body .wrapper > main {
+    float: left;
+}
+
+header .user, main header .links, main .station {
+    float: right;
+}
+
+/***********/
+/* Header */
+/**********/
+
+body > header {
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+}
+
+header .logo-search {
+    width: 500px;
+}
+
+header .user a {
+    font-size: 13px;
+    color: rgb(137, 148, 155);
+}
+
+input.search {
+    height: 28px;
+    width: 300px;
+    font-size: 13px;
+    background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
+    padding: 3px 6px 3px 25px;
+    margin: 0 0 0 40px;
+    border: 1px solid hsl(209, 36%, 86%);
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 5px #d5d5d5;
+}
+
+input.submit {
+    display: none;
+}
+
+
+/***********/
+/* Sidebar */
+/**********/
+body .wrapper > aside {
+    width: 200px;
+}
+body .wrapper > main {
+    width: 1000px;
+}
+
+nav ul li a { 
+    font-size: 14px;
+    font-weight: normal;
+    color: #828c92;
+}
+
+nav ul li a:hover {
+    color: hsl(27, 99%, 55%);
+}
+
+nav ul li {
+    margin-top: 5px;
+}
+
+nav ul li:last-child {
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: rgb(184, 195, 201);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+nav.browse a, nav.music a {
+    padding: 2px 0 0 20px;
+}
+
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
+nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
+nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+
+
+/***********/
+/* Main */
+/**********/
+
+h1 {
+    color: hsl(202, 15%, 35%);
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+main header aside img {
+    border: 1px solid hsl(0, 0%, 85%);
+    border-radius: 50%;
+    box-shadow: 0 0 5px #cecece;
+}
+
+main article {
+    display: inline-block;
+}
+
+
+.name-photo aside { 
+    margin-right: 20px;
+}
+
+.name p { 
+    color: hsl(205, 10%, 66%);
+    font-size: 12px;
+}
+
+.name p img { 
+    margin-left: 12px;
+}
+
+.stats-links {
+    color: hsl(202, 15%, 35%);
+    font-size: 12px;
+    padding: 15px 0px 10px 0px;
+    border-bottom: 1px solid #e1e6e9;
+    margin-bottom: 20px;
+}
+
+.stats-links span {
+    margin-right: 20px;
+}
+
+.stats-links a {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #4b5c66;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #4b5c66;
+}
+
+
+.station {
+    font-size: 12px;
+    color: #008fd5;
+    border-radius: 5px;
+    border: 1px solid #b8c3c9;
+    cursor: pointer;
+    padding: 7px 10px 7px 30px;
+    box-shadow: 1px 1px #d5d5d5;
+    background: url("../img/icon/station.png") no-repeat 8px;
+}
+
+.station:hover {
+    background-color: #0A90D5;
+    color: white;
+    transition: all 0.3s ease-in-out 0;
+    background-image: url("../img/icon/station-white.png");
+}
+
+/***********/
+/*  Album  */
+/**********/
+#albums { 
+    margin-top: 20px;
+}
+
+#albums article {
+    margin: 0 12px 30px 0;
+    font-size: 13px;
+    color: hsl(203, 8%, 57%);
+}
+
+#albums article img {
+    border: 1px solid #cbcbcb;
+    transition: all 0.3s ease 0;
+}
+
+#albums article img:hover {
+    box-shadow: 0 0 15px #848484;
+    transform: scale(1.1) rotate(-3deg);
+}
+
+#albums article figcaption {
+    color: #4b5c66;
+    margin-top: 6px;
+}
+
+#albums article .artist, #albums article .count {
+    margin-top: 4px;
+}
+
+#albums .explicit {
+    color: hsl(0, 100%, 68%);
+    margin-left: 5px;
+}
+

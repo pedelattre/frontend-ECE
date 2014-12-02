@@ -1,0 +1,32 @@
+
+1. Remplacer toutes les dimensions en pixel par des pourcentages / em
+
+2. Faire de même pour les images
+
+3. Régler le viewport pour les mobiles
+
+4. Définir 3 points de ruptures (desktop / tablette / téléphone)
+
+5. Ajuster la taille des texte lorsqu’un simple rapport proportionnel (em) n’a pas suffi
+
+6. Ajuster les détails avec des media queries
+	- Masquer la colonne de gauche sur mobile et sur tablette en mode portrait
+	- Afficher la tête de Luke Chesser en grand, centré sur l’écran du mobile
+	- Afficher son nom en dessous (en taille appropriée)
+	- Afficher les statistiques (playlist / reviews / followers / following de façon empilé
+	- Masquer les collection et history sur mobile
+	- Centrer le bouton « start station »
+	- Mettre à la ligne le champs de recherche
+	- Masquer le nom en haut à droite
+	- Centrer le logo au milieu de l’écran
+	- Redimensionner la fenêtre du navigateur, et tester que la page est visuellement cohérente à toutes les résolutions. Faire les ajustements nécéssaires
+
+
+7. Tester en live sur votre mobile en publiant la page sur GitHub Pages 
+	- Créer un compte GitHub
+	- Déposez les fichiers en utilisant le logiciel GitHub for Windows ou la ligne de commande
+	- Suivez les instruction sur https://pages.github.com/
+
+8. Préparer une autre version en utilisant le système de grille du framework CSS Bootstrap (index-bootstrap.html)
+
+9. Déposer cette nouvelle version sur le repository GitHub

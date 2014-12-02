@@ -1,0 +1,187 @@
+* { 
+    font-family: 'My Lucida', Console;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper { 
+    width: 1280px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+body > header {
+    margin-bottom: 20px;
+}
+
+header .logo-search {
+    float: left;
+    width: 500px;
+}
+
+header .logo-search img, header .logo-search form  {
+    float: left;
+}
+
+header .user {
+    float: right;
+}
+
+header .user a {
+    font-size: 13px;
+    color: #89949b;
+}
+
+body .wrapper > aside {
+    float: left;
+    width: 200px;
+}
+body .wrapper > main {
+    float: left;
+    width: 1000px;
+}
+
+main header aside {
+    float: left;
+}
+main header .name {
+    float: left;
+}
+
+main header .statistics {
+    float: left;
+}
+
+main header .links {
+    float: right;
+}
+
+main h2 {
+    float: left;
+}
+main .station {
+    float: right;
+}
+
+
+h3 {
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+nav ul li a { 
+    font-size: 14px;
+    font-weight: normal;
+}
+
+nav ul li {
+    margin-top: 5px;
+}
+
+main header aside img {
+    border: 1px solid #dadada;
+}
+
+nav ul li:last-child {
+    margin-bottom: 30px;
+}
+
+.name-photo aside { 
+    margin-right: 20px;
+}
+
+h1 {
+    color: #4b5c66;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.name p { 
+    color: #a0aab1;
+    font-size: 12px;
+}
+
+.name p img { 
+    margin-left: 12px;
+}
+
+
+.stats-links {
+    color: #4b5c66;
+    font-size: 12px;
+    padding: 15px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+.stats-links span {
+    margin-right: 20px;
+}
+
+.stats-links a {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #4b5c66;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #4b5c66;
+}
+
+.station {
+    font-size: 12px;
+    color: #008fd5;
+    border: 1px solid #b8c3c9;
+    cursor: pointer;
+    padding: 7px 10px 7px 30px;
+}
+
+#albums { 
+    margin-top: 20px;
+}
+
+#albums article {
+    margin-right: 12px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #89949b;
+}
+
+#albums article img {
+    border: 1px solid #cbcbcb;
+}
+
+#albums article figcaption {
+    color: #4b5c66;
+    margin-top: 6px;
+}
+
+#albums article .artist, #albums article .count {
+    margin-top: 4px;
+}
+
+#albums .explicit {
+    color: #ff5d5d;
+    margin-left: 5px;
+}
+
+nav.browse a, nav.music a {
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
+
+
+
+

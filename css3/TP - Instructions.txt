@@ -1,0 +1,14 @@
+
+Utiliser les propriétés CSS3 suivantes :
+
+1. Font Face
+
+2. Border Radius
+
+3. Box-Shadow
+
+4. Gradient
+
+5. Color (RGBa ou HSLa)
+
+6. Transition
