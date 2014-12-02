@@ -5,12 +5,18 @@
     font-weight: bold;
 }
 
-* { 
+html {
+    font-size: 16px;
+}
+
+* {
     font-family: 'My Lucida', Console;
 }
 
-body { 
+body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+    width : 100%;
+    font-size : 62.5% /*1em = 10px*/
 }
 
 a {
@@ -18,21 +24,22 @@ a {
     text-decoration: none;
 }
 
-.wrapper { 
+.wrapper {
     width: 90%;
-    padding: 25px;
+    padding: 2.5em;
+    margin-left : 5%;
     margin: 0 auto;
 }
 
 body > header {
-    margin-bottom: 20px;
+    margin-bottom: 2em;
     background: white;
-    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    box-shadow: 0.1em 0em 0.8em rgb(200, 200, 200);
 }
 
 header .logo-search {
     float: left;
-    width: 500px;
+    width: 50em;
 }
 
 header .logo-search img, header .logo-search form  {
@@ -44,7 +51,7 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 1.3em;
     color: #89949b;
 }
 
@@ -86,13 +93,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 1.1em;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
-nav ul li a { 
-    font-size: 14px;
+nav ul li a {
+    font-size: 1.4em;
     font-weight: normal;
     color: #828c92;
 }
@@ -102,36 +109,36 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 5px;
+    margin-top: 0.5em;
 }
 
 main header aside img {
-    border: 1px solid #dadada;
+    border: 0.1em solid #dadada;
     border-radius: 50%;
     box-shadow: 0 0 5px #cecece;
 }
 
 nav ul li:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 3em;
 }
 
-.name-photo aside { 
-    margin-right: 20px;
+.name-photo aside {
+    margin-right: 2em;
 }
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 2.4em;
     font-weight: normal;
-    margin-bottom: 8px;
+    margin-bottom: 0.8em;
 }
 
-.name p { 
+.name p {
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 1.2em;
 }
 
-.name p img { 
+.name p img {
     margin-left: 12px;
 }
 
@@ -199,7 +206,7 @@ input.submit {
     background-image: url("../img/icon/station-white.png");
 }
 
-#albums { 
+#albums {
     margin-top: 20px;
 }
 
@@ -245,7 +252,3 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
-
-
-
