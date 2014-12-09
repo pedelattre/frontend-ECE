@@ -5,6 +5,22 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 1200px){
+    
+}
+
 html {
     font-size: 16px;
 }
@@ -25,24 +41,29 @@ a {
 }
 
 .wrapper {
-    width: 90%;
-    padding: 2.5em;
-    margin-left : 5%;
+    width: 74.493445%;
+    padding: 25px;
     margin: 0 auto;
 }
 
 body > header {
-    margin-bottom: 2em;
+    margin-bottom: 20px;
     background: white;
-    box-shadow: 0.1em 0em 0.8em rgb(200, 200, 200);
+    box-shadow: 1px 0px 8px rgb(200, 200, 200);
 }
 
 header .logo-search {
     float: left;
-    width: 50em;
+    width: 40%;
 }
 
-header .logo-search img, header .logo-search form  {
+header .logo-search img {
+    max-width: 100%;
+    float: left;
+}
+
+header .logo-search form{
+    width: 60%;
     float: left;
 }
 
@@ -57,11 +78,11 @@ header .user a {
 
 body .wrapper > aside {
     float: left;
-    width: 15.625%;
+    width: 14.615385%;
 }
 body .wrapper > main {
     float: left;
-    width: 78.125%;
+    width: 81.538462%;
 }
 
 main header aside {
@@ -109,28 +130,29 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 0.5em;
+    margin-top: 5px;
 }
 
 main header aside img {
-    border: 0.1em solid #dadada;
+    max-width: 100%;
+    border: 1px solid #dadada;
     border-radius: 50%;
     box-shadow: 0 0 5px #cecece;
 }
 
 nav ul li:last-child {
-    margin-bottom: 3em;
+    margin-bottom: 30px;
 }
 
 .name-photo aside {
-    margin-right: 2em;
+    margin-right: 20px;
 }
 
 h1 {
     color: #4b5c66;
     font-size: 2.4em;
     font-weight: normal;
-    margin-bottom: 0.8em;
+    margin-bottom: 8px;
 }
 
 .name p {
@@ -139,14 +161,15 @@ h1 {
 }
 
 .name p img {
+    max-width: 100%;
     margin-left: 12px;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
+    font-size: 1.2em;
+    padding: 15px 0px 1px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
 }
@@ -157,13 +180,13 @@ h1 {
 
 .stats-links a {
     margin-left: 20px;
-    font-size: 12px;
+    font-size: 1.2em;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 2em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -173,8 +196,8 @@ input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
     height: 28px;
-    width: 300px;
-    font-size: 13px;
+    width: 100%;
+    font-size: 1.3em;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
@@ -189,7 +212,7 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 1.2em;
     color: #008fd5;
     border-radius: 5px;
     border: 1px solid #b8c3c9;
@@ -213,11 +236,12 @@ input.submit {
 #albums article {
     margin-right: 12px;
     margin-bottom: 30px;
-    font-size: 13px;
+    font-size: 1.3em;
     color: #89949b;
 }
 
 #albums article img {
+    max-width: 100%;
     border: 1px solid #cbcbcb;
     transition: all 0.3s ease 0;
 }

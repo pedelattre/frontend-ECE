@@ -1,32 +1,58 @@
+TP Responsive Web Design
+=========================
 
-1. Remplacer toutes les dimensions en pixel par des pourcentages / em
-
-2. Faire de même pour les images
-
-3. Régler le viewport pour les mobiles
-
-4. Définir 3 points de ruptures (desktop / tablette / téléphone)
-
-5. Ajuster la taille des texte lorsqu’un simple rapport proportionnel (em) n’a pas suffi
-
-6. Ajuster les détails avec des media queries
-	- Masquer la colonne de gauche sur mobile et sur tablette en mode portrait
-	- Afficher la tête de Luke Chesser en grand, centré sur l’écran du mobile
-	- Afficher son nom en dessous (en taille appropriée)
-	- Afficher les statistiques (playlist / reviews / followers / following de façon empilé
-	- Masquer les collection et history sur mobile
-	- Centrer le bouton « start station »
-	- Mettre à la ligne le champs de recherche
-	- Masquer le nom en haut à droite
-	- Centrer le logo au milieu de l’écran
-	- Redimensionner la fenêtre du navigateur, et tester que la page est visuellement cohérente à toutes les résolutions. Faire les ajustements nécéssaires
+>> Des screenshots sont disponibles dans le dossier « specifications » pour visualiser le rendu désiré à chaque résolution.
 
 
-7. Tester en live sur votre mobile en publiant la page sur GitHub Pages 
+1. Mettre en place l’équivalence 1em = 10px
+
+2. Remplacer toutes les tailles de police par des tailles exprimés en em
+
+3. Exprimer la largeur du wrapper général, de la colonne de gauche et de la large colonne de droite en pourcentages 
+
+4. Remplacer les largeurs les plus importantes par des tailles exprimés en pourcentages (cible / contexte = résultat)
+
+5. Rendre les images fluides (max-width)
+
+6. Régler le viewport pour les mobiles afin de désactiver le zoom
+
+7. Définir 4 points de ruptures (écrans larges / laptops / tablettes / téléphones)
+Premier point de rupture : 480px
+Deuxieme point de rupture : 768px
+Troisieme point de rupture : 1024px
+Quatrieme point de rupture : >1200px
+
+8. Ajuster la taille des texte lorsqu’un simple rapport proportionnel (em) n’a pas suffi
+
+9. Ajuster les détails grâce aux Media Queries
+	Taille d’écran ~ desktop (large) :
+		- 5 albums par lignes : faire en sorte qu’ils remplissent tout l’espace disponible
+
+	Taille d’écran ~ laptop :
+		- Masquer les icônes du menu de gauche
+		- 4 albums par lignes : faire en sorte qu’ils remplissent tout l’espace disponible
+
+	Taille d’écran ~ tablette en mode portrait & mobile :
+		- Masquer la colonne de gauche
+		- 4 à 3 albums par lignes : faire en sorte qu’ils remplissent tout l’espace disponible
+		
+	Taille d’écran ~ mobile :
+		- Afficher la photo de Luke Chesser en grand, centré sur l’écran du mobile
+		- Afficher son nom en dessous
+		- Masquer les liens « Collection » et « History » sur mobile
+		- Masquer la barre de recherche
+		- Masquer le nom du user en haut à droite
+		- Centrer le logo « rdio »
+		- 2 albums par lignes : faire en sorte qu’ils remplissent tout l’espace disponible
+	
+	- Redimensionner la fenêtre du navigateur, et tester que la page est visuellement cohérente sur toutes les résolutions. Sinon, faire les ajustements nécessaires en introduisant de nouveau breakpoint (media queries)
+
+10. Utiliser la pseudo classe CSS3 :nth-child(n) pour supprimer la marge inutile à droite du dernier album de chaque ligne
+
+11. Tester en live sur mobile en publiant le site sur GitHub Pages.
 	- Créer un compte GitHub
-	- Déposez les fichiers en utilisant le logiciel GitHub for Windows ou la ligne de commande
-	- Suivez les instruction sur https://pages.github.com/
+	- Suivez les instruction sur https://pages.github.com/ : Choisissez « Project Page » et « Start from scratch »
+	- Créer la branche « gh-pages »
+	- Déposer les fichiers en utilisant le logiciel « GitHub for Windows » ou la ligne de commande
 
-8. Préparer une autre version en utilisant le système de grille du framework CSS Bootstrap (index-bootstrap.html)
-
-9. Déposer cette nouvelle version sur le repository GitHub
+12. Envoyer le lien de la « GitHub Page » (xxxx.github.io/xxx) à francois@kiliweb.fr, avec les noms du groupe (4 points pour l’évaluation / TP)
